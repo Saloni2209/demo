@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            border: 3px solid black;
+            height: 650px;
+            width: 70%;
+            margin-left: 200px;
+            margin-top: 50px;
+        }
+        
+        .h1 strong {
+            font-size: x-large;
+        }
+        
+        .h2 {
+            float: right;
+            padding-right: 80px;
+            padding-top: 40px;
+        }
+        
+        .h1 {
+            float: left;
+            padding-left: 50px;
+        }
+        
+        .middle {
+            margin-top: 200px;
+        }
+        
+        table,
+        td,
+        th {
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 4px;
+        }
+        
+        table {
+            margin-left: 50px;
+            width: 90%;
+        }
+        
+        .last {
+            margin-top: 20px;
+            margin-left: 800px;
+            display: flex;
+        }
+        
+        .part1 {
+            margin-right: 30px;
+        }
+        
+        .para {
+            margin-left: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="first">
+            <div class="h1">
+                <p><strong>Redmine CRM</strong><br> Company representative name</br>
+                    your company address<br> Tax ID:<br> phone:
+                    <br> Tax:
+                </p>
+            </div>
+            <div class="h2">
+                <p><strong>Invoice ID:</strong>INV/20111209-22<br>
+                    <strong>Invoice date:</strong>12/08/2011<br>
+                    <strong>Text custom field</strong>visible field in PDF<br>
+                    <strong>Bill to:</strong>"Romashka"Ltd. <br> Amphitheatre Parkway <br>Mountain View ,CA 94043.
+                </p>
+            </div>
+        </div>
+        <div class="middle">
+            <table>
+                <tr>
+                    <th>#</th>
+                    <th>Description</th>
+                    <th>Qty</th>
+                    <th>units</th>
+                    <th>Unit price(EUR)</th>
+                    <th>total(EUR)</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>projecting<br>-context menu for invoice list</td>
+                    <td>x1.0</td>
+                    <td>hours</td>
+                    <td>50.00</td>
+                    <td>50.00</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Develop<br>-invoice number format template<br>-[pro]Duplicating invoices<br> -Language support<br>-Context menu for invoices list</td>
+                    <td>x17.0</td>
+                    <td>hours</td>
+                    <td>40.00</td>
+                    <td>680.00</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Analysis<br>-[PRO]Duplicating invoices<br>-Language support</td>
+                    <td>x3.0</td>
+                    <td>hours</td>
+                    <td>35.00</td>
+                    <td>105.00</td>
+                </tr>
+            </table>
+        </div>
+        <div class="last">
+            <div class="part1">
+                <strong>Sub total:</strong><br>
+                <strong>Tax(18.0%):</strong><br>
+                <strong>Discount(10.0%):</strong><br>
+                <strong>Total(EUR):</strong><br>
+            </div>
+            <div class="part2">
+                <strong>835.00</strong><br>
+                <strong>150.30</strong><br>
+                <strong>-83.50</strong><br>
+                <strong>901.80</strong>
+            </div>
+        </div>
+        <div class="para">
+            <p>Your billing information (Bank,Address,IBAN,SWIFT & etc.)<br><br> Was ist mit Beschreibung</p>
+        </div>
+    </div>
+</body>
+
+</html>
